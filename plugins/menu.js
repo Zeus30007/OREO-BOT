@@ -10,21 +10,22 @@ let totalf = Object.values(global.plugins).filter(
     (v) => v.help && v.tags
   ).length
 let tags = {
-  'main': 'Main'
+  'main': 'Main':'shinichiro'
 }
 const defaultMenu = {
-before: `╭─┉┉┉┉┈◈ *INFO* ◈┈┉┉┉┉┉𓆩ꨄ︎𓆪
- ⁝ 📛 *Name:* ${global.botname}
- ⁝ 🧮 *Total:* ${totalf} + Features
- ⁝ 💠 *Version:* V1.2.1
- ⁝ ⚒️ *Deployed:* ${global.author}
- ⁝ 👨‍💻 *Developer:* Shizo Devs ❤️✨
-╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉𓆩ꨄ︎𓆪
+before: `╭─┉┉┉┉┈◈ *INFO* ◈┈┉┉┉┉┉㊗
+ ⁝㊗ *Name:* ${global.botname}
+ ⁝㊗ *Total:* ${totalf} + Features
+ ⁝㊗ *Version:* 1.0
+ ⁝㊗ *Deployed:* ${global.author}
+ ⁝㊗ *master:* 𝙈𝙄𝙆𝙀𝙔
+ ⁝㊗ *leader:* 𝙈𝙄𝙆𝙀𝙔×𝙎𝙝𝙞𝙣𝙞𝙘𝙝𝙞𝙧𝙤
+╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉㊗
 %readmore`.trimStart(),
-  header: '╭─┉┉┈◈ *%category* ◈┈┉┉𓆩ꨄ︎𓆪 ',
-  body: '┇ ☆  %cmd',
-  footer: '╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉𓆩ꨄ︎𓆪\n',
-   after: `*Made by ♡ Shizo*`,
+  header: '╭─┉┉┈◈ *%category* ◈┈┉┉㊗ ',
+  body: '┇ ㊗  %cmd',
+  footer: '╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉㊗\n',
+   after: `*𝙈𝙄𝙆𝙀𝙔㊗𝙎𝙝𝙞𝙣𝙞𝙘𝙝𝙞𝙧𝙤*`,
   }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
